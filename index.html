@@ -180,25 +180,29 @@
               </div>
             </div>
             <div class="col-lg-2 order-1 order-lg-2"></div>
-            <div class="col-lg-6 order-1 order-lg-2" style="margin-top: 2rem;">
+            <div class="col-lg-2 order-1 order-lg-2"></div>
+            <div class="col-lg-4 order-1 order-lg-2" style="margin-top: 2rem;">
               <div class="container">
-                <div class="row">
-                  <form id="hubspotForm" method="POST" onsubmit="submitForm(event)">
+                <div class="row" >
+                  <form id="hubspotForm" method="POST" onsubmit="submitForm(event)" class="p-4 rounded" style="background-color: #e0dede;">
                     <div class="d-flex flex-column ">
                       <div class="my-2 d-flex flex-column">
-                        <label for="firstname" class="fw-bold text-white fs-5">First Name:</label>
-                        <input type="text" id="firstname" name="firstname" class="outline-0 py-1 bg-transparent " style=" outline: none; border: 2px solid black; width: 300px;" required>
+                        <label for="firstname" class="fw-bold  fs-5">Website:</label>
+                        <input type="text" id="firstname" name="firstname" class="outline-0 py-1 bg-transparent rounded " style=" outline: none; border: 2px solid black; width: 100%;" required>
                       </div>
                       <div class="my-2 d-flex flex-column">
-                         <label for="lastname" class="fw-bold text-white fs-5">Last Name:</label>
-                         <input type="text" id="lastname" name="lastname" class="outline-0 py-1 bg-transparent " style="outline: none; border: 2px solid black; width: 300px;" required>
+                        <label for="email" class="fw-bold  fs-5">Conatct Email:</label>
+                        <input type="email" id="email" name="email" class="py-1 bg-transparent rounded" style="outline: none; border: 2px solid black; width: 100%;" required>
                       </div>
                       <div class="my-2 d-flex flex-column">
-                        <label for="email" class="fw-bold text-white fs-5">Email:</label>
-                        <input type="email" id="email" name="email" class="py-1 bg-transparent " style="outline: none; border: 2px solid black; width: 300px;" required>
-                      </div>
+                        <label for="lastname" class="fw-bold  fs-5">Contact Phone Number:</label>
+                        <input type="number" id="lastname" name="lastname" class="outline-0 py-1 bg-transparent rounded " style="outline: none; border: 2px solid black; width:100%;" required>
+                     </div>
                     </div>
-                    <button type="submit" class="home-signup-btn px-4 py-1 my-3 fw-bold fs-5" style="border: 2px solid black;">Submit</button>
+                    <div class="d-flex justify-content-center align-items-center">
+
+                      <button type="submit" class="home-signup-btn px-4 py-1 my-3 fw-bold fs-5 rounded" style="border: 2px solid black;">Submit</button>
+                    </div>
                   </form>
                   
                 </div>
