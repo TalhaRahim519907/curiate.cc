@@ -1677,7 +1677,7 @@ input[type="radio"] {
     margin: 11% 0% 0% 0%;
   }
 }
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 10000px) {
   .copyright-text {
     font-family: "Open Sans", sans-serif;
     font-weight: 500;
@@ -1994,7 +1994,7 @@ input[type="radio"] {
   border-radius: 50%;
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 10000px) {
   .learnmore-card_header {
     font-size: 17px;
     font-weight: 600;
