@@ -9,6 +9,9 @@ body {
   display: flex;
   flex-direction: column;
 }
+.custom-font {
+  font-family: Arial, Helvetica, sans-serif;
+}
 nav {
   flex-grow: 0;
 }
@@ -1471,7 +1474,7 @@ input[type="radio"] {
   #learn-more-img-pg-2 {
     max-width: auto;
     height: 100%;
-    max-height: 490px;
+    max-height: 555px;
   }
   #learn-more-copy-pg-3 {
     max-width: auto;
@@ -1767,7 +1770,8 @@ input[type="radio"] {
   #learn-more-copy-pg-4 {
     max-width: auto;
     height: 100%;
-    max-height: 490px;
+    max-height: 555px;
+    max-height: 555px;
   }
   #learn-more-img-pg-4 {
     max-width: auto;
@@ -2343,35 +2347,4 @@ input[type="radio"] {
   background-color: black;
   transition: 0.35s ease-in-out;
   color: white;
-}
-
-.home-backgorund {
-  position: relative;
-  background-image: url("./assets/images/about-home-img.jpg");
-  background-size: cover;
-  background-position: center;
-  /* height: 400px; */
-  width: 100%;
-}
-
-/* Create black overlay with opacity */
-.home-backgorund::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.5); /* Black with 50% opacity */
-  z-index: 0;
-}
-
-/* Style the content on top of the image */
-.content {
-  position: relative;
-  z-index: 2; /* Above the overlay */
-  color: white;
-  text-align: center;
-  padding-top: 150px;
-  font-size: 24px;
 }
