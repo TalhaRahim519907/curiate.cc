@@ -2194,7 +2194,7 @@ input[type="radio"] {
   width: 100%;
 }
 .our-team {
-  padding: 1.5rem 0rem;
+  padding: 0.5rem 0rem;
   text-align: center;
 }
 .our-team-headings {
@@ -2206,19 +2206,16 @@ input[type="radio"] {
   margin-top: 2rem;
 }
 .our-team-headings h1 {
-  font-size: 45px;
+  font-size: 32px;
   font-weight: 700;
   margin-top: 1rem;
   font-family: "Times New Roman", Times, serif;
 }
-.our-team-headings hr {
-  border: 2px solid black;
-  width: 120px;
-  margin: auto;
-}
+
 .our-team-headings p {
   margin-top: 1rem;
   line-height: 1.75rem;
+  /* font-size: 23.3px; */
   font-family: "Times New Roman", Times, serif;
 }
 
